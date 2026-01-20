@@ -40,6 +40,6 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}    # To musisz dodać sam w ustawieniach repo
       run: >
         mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-        -Dsonar.projectKey=krystianpoprawa
+        -Dsonar.projectKey=KrystianPoprawa_java-ci-demo-rep
         -Dsonar.organization=krystianpoprawa
         -Dsonar.host.url=https://sonarcloud.io
